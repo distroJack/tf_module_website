@@ -12,5 +12,5 @@ variable "static_path" {}
 // NOTE: to switch between logging and non-logging, the site MUST be torn down
 //       using 'terraform destroy' otherwise aws gets confused and will refuse to 
 variable "enable_logging" {
-    default = true
+  default = true
 }
